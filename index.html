@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usha Mondal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Usha Mondal</h1>
+            <p>Web Developer</p>
+            <button class="cv-button" onclick="openModal()">View CV</button>
+        </div>
+    </header>
+    <nav>
+        <ul class="container">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm Usha, a passionate web developer with a keen interest in front-end development and design. I am eager to grab opportunity and put my best efforts.  
+            I am basically from Andal, Durgapur, but I am currently staying in Kolkata. I did my graduation.in B.Sc. Computer Science from Kazi Nazrul University, Asansol, and recently completed   
+            MCA at the Institute of Engineering & Management, Kolkata. During my academic journey, I have improved my skills.</p>
+    </section>
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project One</h3>
+            <p> Retina blood vessel segmentation involves using advanced algorithms to accurately outline blood vessels in the retina.  images, aiding in the diagnosis and monitoring of various eye diseases.</p>
+        </div>
+        <!-- <div class="project">
+            <h3>Project Two</h3>
+            <p>Description of project two. This project focused on developing a responsive web application using React.</p>
+        </div> -->
+    </section>
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email:mondalusha4@gmail.com</p>
+        <p>LinkedIn: <a href="www.linkedin.com/in/usha-mondal-bb45a9256">linkedin.com/in/usha-mondal</a></p>
+    </section>
+    <footer class="container">
+        <p>&copy; 2024 Usha Mondal. All rights reserved.</p>
+    </footer>
+
+    <div id="cvModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <embed src="USHA MONDAL R1.pdf" type="application/pdf" width="100%" height="600px" />
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
